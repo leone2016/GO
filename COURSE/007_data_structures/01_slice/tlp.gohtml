@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Peeps</title>
+</head>
+<body>
+<ul>
+    <!-- funciona como un bucle for pero simplificado, importante utilizar end-->
+    {{range .}}
+        <li>{{.}}</li>
+    {{end}}
+
+    {{range $indice, $elemento :=.}}
+        <li>{{$indice}} - {{$elemento}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
