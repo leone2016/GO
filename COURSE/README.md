@@ -4,4 +4,10 @@
 ### create the page on html
 ```Consola
 go run main.go > default.html
-```
+``` 
+
+
+## folders index
+
+0 - 13 ( templetes )
+14 - 21 ( Servers )
